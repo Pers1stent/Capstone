@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.css'
 import restaurantFood from './images/restauranfood.jpg'
 import greekSalad from './images/greek salad.jpg'
 import scooter from './images/scooter.png'
-import bruschetta from './images/bruchetta.svg'
+import bruschetta from './images/bruchetta.jpg'
 import lemonDessert from './images/lemon dessert.jpg'
 import firstGirl from './images/firstCard.jpg'
 import secondGirl from './images/secondCard.jpg'
@@ -10,19 +11,20 @@ import man from './images/thirdCard.jpg'
 import mike from './images/Mike.jpg'
 import adrian from './images/Adrian.jpg'
 
+
 const Main = () => {
   return (
     <div className='main'>
         <div className='heroSection'>
-            <div className='heroSection_left'>
+            <div>
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
                 <p>Little Lemon is a Mediterranean inspired bar and small plates restaurant focusing on fresh produce and big flavours, offering bespoke cocktails and a premium wine selection.</p>
                 <button>Reserve a table</button>
             </div>
-            <img src={restaurantFood} alt="restaurantFood" width={383} height={419}/>
+            <img src={restaurantFood} alt="restaurantFood"/>
         </div>
-        <div className='highligts'>
+        <div className='highlights'>
             <div className='topHighlights'>
                 <h2>This weeks Specials!</h2>
                 <button>Online Menu</button>
@@ -61,7 +63,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className='card'>
-                <img src={lemonDessert} alt='lemonDessert' width={267} height={200}/>
+                    <img src={lemonDessert} alt='lemonDessert' width={267} height={200}/>
                     <div className='card_elements'>
                         <div className='top_card'>
                             <h3>Lemon Dessert</h3>

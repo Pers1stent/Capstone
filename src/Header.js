@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './images/Logo .svg';
+import logo from './images/Logo.svg';
 import logo2 from './images/lemon.png'
 import { Helmet } from 'react-helmet';
+import './style.css'
 
 const Header = () => {
   return (
-    <div>
+    <div className='header'>
         <Helmet>
             <title>Little Lemon</title>
             <meta charset="UTF-8"/>

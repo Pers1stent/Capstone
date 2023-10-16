@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Markazi Text', serif;
+    src: url(../public/MarkaziText-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Markazi Text Reg', serif;
+    src: url(../public/MarkaziText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'karla Reg';
+    src: url(../public/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'karla Med';
+    src: url(../public/Karla-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url(../public/Karla-Bold.ttf);
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+ul {
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 1.2rem;
+    list-style: none;
+    font-family: 'karla';
+    font-weight: 700;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30rem 1fr 40rem 40rem 10rem;
+}
+
+.heroSection {
+    background-color: #495E57;
+    display: flex;
+    justify-content: center;
+    gap: 17rem;
+}
+
+.heroSection  p {
+    max-width: 24rem;
+    font-weight: 500;
+    color: white;
+    font-family: 'karla Reg';
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 6rem;
+}
+
+.heroSection h1 {
+    font-size: 4rem;
+    margin-bottom: 0px;
+    margin-top: 3.4rem;
+    color: #C5A50B;
+    font-family: 'Markazi Text';
+}
+
+.heroSection h2 {
+    font-size: 2rem;
+    margin-top: 0px;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+}
+
+.heroSection img {
+    border-radius: 3%;
+    margin-top: 6rem;
+    width: 24rem;
+    height: 27rem;
+}
+
+.heroSection button {
+    background-color: #F4CE14;
+    font-family: 'karla';
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: 12px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.1);
+    transition:  0.3s ease-in-out;
+}
+
+.highlights {
+    margin-bottom: 4.5rem;
+}
+
+.topHighlights {
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+    margin-bottom: 5rem;
+}
+
+.topHighlights h2 {
+    font-family: 'Markazi Text';
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 10rem;
+    margin-bottom: 0;
+}
+
+.topHighlights button {
+    margin-top: 10rem;
+    max-height: 3.7rem;
+    background-color: #F4CE14;
+    font-family: 'karla';
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: 12px;
+}
+
+.bottomHighlights {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.bottomHighlights p {
+    max-width: 15rem;
+}
+
+
+.card  {
+    background-color: #EDEFEE;
+    min-height: 30rem;
+}
+
+.card, img {
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+.top_card p {
+    font-family: 'karla';
+    font-weight: 700;
+    color: #F80000;
+    opacity: 70%;
+    font-size: 1rem;
+    margin-top: 1.3rem;
+}
+
+.top_card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.middle_card {
+    display: flex;
+    justify-content: center;
+    max-height: 96px;
+    color: #495E57;
+    line-height: 1.5rem;
+    font-family: 'karla Reg';
+    margin-bottom: 3rem;
+}
+
+.bottom_card {
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    font-family: 'karla';
+    font-size: 1rem;
+}
+
+.bottom_card img {
+    margin-top: 1rem;
+}
+
+.testimonials {
+    background-color: #495E57;
+    max-height: 40rem;
+}
+
+.testimonials h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    color: #C5A50B;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+}
+
+.test_cards {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.cards {
+    background-color: #EDEFEE;
+    min-width: 13rem;
+    min-height: 12.5rem;
+    border-radius: 12px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.middle p {
+    font-family: 'karla Reg';
+}
+
+.cards h4 {
+    margin-left: 3rem;
+    font-family: 'karla Reg';
+}
+
+.cards > p {
+    margin-left: 3rem;
+    font-family: 'karla Reg';
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.leftPart p {
+    max-width: 25rem;
+    font-family: 'karla Reg';
+    color: #495E57;
+    line-height: 1.5rem;
+}
+
+.leftPart h2 {
+    font-size: 4rem;
+    color: #495E57;
+    font-family: 'Markazi Text';
+    margin-bottom: 0;
+}
+
+.leftPart h3 {
+    font-size: 2rem;
+    margin-top: 0px;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+}
+
+.rightPart {
+    display: flex;
+    gap: 3rem;
+}
+
+
+.rightPart img {
+    margin-top: 3.75rem;
+    border-radius: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color:#495E57;
+}
+
+.footer_links {
+    display: flex;
+    gap: 5rem;
+    line-height: 1rem;
+    margin-top: 3rem;
+}
+
+.footer_links h3 {
+    color: #C5A50B;
+    font-family: 'karla';
+}
+
+.footer_links p {
+    font-family: 'karla Reg';
+}
+
+.footer_logo {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer_logo img {
+    border-radius: 0%;
+}
