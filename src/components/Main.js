@@ -1,15 +1,14 @@
 import React from 'react'
 import './style.css'
-import restaurantFood from './images/restauranfood.jpg'
-import greekSalad from './images/greek salad.jpg'
-import scooter from './images/scooter.png'
-import bruschetta from './images/bruchetta.jpg'
-import lemonDessert from './images/lemon dessert.jpg'
-import firstGirl from './images/firstCard.jpg'
-import secondGirl from './images/secondCard.jpg'
-import man from './images/thirdCard.jpg'
-import mike from './images/Mike.jpg'
-import adrian from './images/Adrian.jpg'
+import restaurantFood from '../images/restauranfood.jpg'
+import greekSalad from '../images/greek salad.jpg'
+import scooter from '../images/scooter.png'
+import bruschetta from '../images/bruchetta.jpg'
+import lemonDessert from '../images/lemon dessert.jpg'
+import firstGirl from '../images/firstCard.jpg'
+import secondGirl from '../images/secondCard.jpg'
+import man from '../images/thirdCard.jpg'
+
 
 
 const Main = () => {
@@ -107,17 +106,6 @@ const Main = () => {
                     </div>
                     <p>Review</p>
                 </div>
-            </div>
-        </div>
-        <div className='about'>
-            <div className='leftPart'>
-                <h2>Little Lemon</h2>
-                <h3>Chicago</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-            </div>
-            <div className='rightPart'>
-                <img src={mike} alt='Mike, owner' width={260} height={335}/>
-                <img src={adrian} alt='Adrian, owner' width={260} height={335}/>
             </div>
         </div>
     </div>

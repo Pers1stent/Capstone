@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './images/Logo.svg';
-import logo2 from './images/lemon.png'
+import logo from '../images/Logo.svg';
+import logo2 from '../images/lemon.png'
 import { Helmet } from 'react-helmet';
 import './style.css'
 
@@ -21,7 +21,7 @@ const Header = () => {
         <img src={logo} alt="logo" width={237} height={64}/>
         <nav>
             <ul>
-                <li><a>HOME</a></li>
+                <li>HOME</li>
                 <li><a>ABOUT</a></li>
                 <li><a>MENU</a></li>
                 <li><a>RESERVATIONS</a></li>

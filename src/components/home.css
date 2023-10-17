@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'Markazi Text', serif;
-    src: url(../public/MarkaziText-Medium.ttf);
+    src: url(../fonts/MarkaziText-Medium.ttf);
 }
 
 @font-face {
     font-family: 'Markazi Text Reg', serif;
-    src: url(../public/MarkaziText-Regular.ttf);
+    src: url(../fonts/MarkaziText-Regular.ttf);
 }
 
 @font-face {
     font-family: 'karla Reg';
-    src: url(../public/Karla-Regular.ttf);
+    src: url(../fonts/Karla-Regular.ttf);
 }
 
 @font-face {
     font-family: 'karla Med';
-    src: url(../public/Karla-Medium.ttf);
+    src: url(../fonts/Karla-Medium.ttf);
 }
 
 @font-face {
     font-family: 'karla';
-    src: url(../public/Karla-Bold.ttf);
+    src: url(../fonts/Karla-Bold.ttf);
 }
 
 
@@ -41,10 +41,23 @@ ul {
     font-weight: 700;
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    box-shadow: 0px 0px 10px black;
+    background-color: #495E57;
+    color: #F4CE14;
+    border-radius: 12px;
+}
+
 .main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 30rem 1fr 40rem 40rem 10rem;
+    grid-template-rows: 30rem 1fr 35rem;
 }
 
 .heroSection {
@@ -96,6 +109,10 @@ ul {
     border-radius: 12px;
 }
 
+.heroSection  a {
+    text-decoration: none;
+}
+
 button:hover {
     box-shadow: 0px 0px 10px black;
     transform: scale(1.1);
@@ -131,6 +148,11 @@ button:hover {
     padding: 1rem;
     border: 0;
     border-radius: 12px;
+}
+
+.topHighlights a {
+    text-decoration: none;
+    color: black;
 }
 
 .bottomHighlights {
@@ -245,6 +267,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 40rem;
     gap: 5rem;
 }
 

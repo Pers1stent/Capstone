@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Markazi Text', serif;
+    src: url(../fonts/MarkaziText-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Markazi Text Reg', serif;
+    src: url(../fonts/MarkaziText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'karla Reg';
+    src: url(../fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'karla Med';
+    src: url(../fonts/Karla-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url(../fonts/Karla-Bold.ttf);
+}
+
+.menu {
+    background-color: #EDEFEE;
+    height: 60rem;
+    padding: 0;
+}
+
+.parts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parts h2 {
+    color: #C5A50B;;
+}
+
+.left_Part h3 {
+    font-size: 1rem;
+    font-family: 'karla';
+    color: #EDEFEE;
+}
+
+.left_Part p {
+    font-size: 0.7rem;
+    font-family: 'karla Reg';
+    max-width: 20rem;
+}
+
+.left_Part {
+    background-color: #495E57;
+    box-shadow: 0px 0px 10px #495E57;
+    border-radius: 12px;
+    padding: 1rem;
+    height: 42rem;
+}
+
+.right_Part h3 {
+    font-size: 1rem;
+    font-family: 'karla';
+    color: #EDEFEE;
+}
+
+.right_Part p {
+    font-size: 0.7rem;
+    font-family: 'karla Reg';
+    max-width: 20rem;
+}
+
+.right_Part {
+    background-color: #495E57;
+    box-shadow: 0px 0px 10px #495E57;
+    border-radius: 12px;
+    padding: 1rem;
+    height: 42rem;
+}
+
+.div {
+    padding: 0.2rem;
+}
+
+.div:hover {
+    box-shadow: 0px 0px 10px #F4CE14;
+    border-radius: 12px;
+}
+
+.middle_Part2 {
+    background-color: #495E57;
+    box-shadow: 0px 0px 10px #495E57;
+    border-radius: 12px;
+    padding: 1rem;
+    height: 42rem;
+    min-width: 20rem
+}
+
+.middle_Part2 p {
+    font-size: 0.7rem;
+    font-family: 'karla Reg';
+    max-width: 20rem;
+}
+
+.middle_Part2 h3 {
+    font-size: 1rem;
+    font-family: 'karla';
+    color: #EDEFEE;
+}
+
+
+.top_div {
+    padding: 2rem;
+}
+
+.top_div h1 {
+    font-family: 'Markazi Text';
+}
+
+.top_div p {
+    font-family: 'karla Reg';
+}

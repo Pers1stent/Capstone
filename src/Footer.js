@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './components/home.css'
 import logo2 from './images/header_logo.png'
 
 const Footer = () => {
