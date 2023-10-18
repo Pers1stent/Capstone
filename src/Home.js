@@ -36,7 +36,7 @@ const Home = () => {
                     <h1>Little Lemon</h1>
                     <h2>Chicago</h2>
                     <p>Little Lemon is a Mediterranean inspired bar and small plates restaurant focusing on fresh produce and big flavours, offering bespoke cocktails and a premium wine selection.</p>
-                    <button>Reserve a table</button>
+                    <button><Link to='/reservations'>Reserve a table</Link></button>
                 </div>
                 <img src={restaurantFood} alt="restaurantFood"/>
             </div>

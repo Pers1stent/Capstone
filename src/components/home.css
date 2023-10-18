@@ -48,10 +48,14 @@ nav a {
 }
 
 nav a:hover {
-    box-shadow: 0px 0px 10px black;
-    background-color: #495E57;
-    color: #F4CE14;
-    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    color: #495E57;
+    border-radius: 5px;
+}
+
+ nav a:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px 0px 0px black;
 }
 
 .main {
@@ -107,17 +111,21 @@ nav a:hover {
     padding: 1rem;
     border: 0;
     border-radius: 12px;
+    box-shadow: 0px 10px 0px 0px black;
 }
+
+.heroSection button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px 0px 0px black;
+}
+
+
 
 .heroSection  a {
     text-decoration: none;
+    color: black;
 }
 
-button:hover {
-    box-shadow: 0px 0px 10px black;
-    transform: scale(1.1);
-    transition:  0.3s ease-in-out;
-}
 
 .highlights {
     margin-bottom: 4.5rem;
@@ -148,6 +156,12 @@ button:hover {
     padding: 1rem;
     border: 0;
     border-radius: 12px;
+    box-shadow: 0px 10px 0px 0px black;
+}
+
+.topHighlights button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px 0px 0px black;
 }
 
 .topHighlights a {
@@ -336,4 +350,15 @@ button:hover {
 
 .footer_logo img {
     border-radius: 0%;
+}
+
+.footer_links a {
+    padding: 0.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+.footer_links a:hover {
+    box-shadow: 0px 0px 10px #F4CE14;
+    border-radius: 12px;
 }

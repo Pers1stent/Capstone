@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Markazi Text', serif;
+    src: url(../fonts/MarkaziText-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Markazi Text Reg', serif;
+    src: url(../fonts/MarkaziText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'karla Reg';
+    src: url(../fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'karla Med';
+    src: url(../fonts/Karla-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'karla';
+    src: url(../fonts/Karla-Bold.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    max-width: 60rem;
+    background-color: #efeded;
+    margin-bottom: 3rem;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    min-width: 45rem;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background-color: #D9D9D9;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 8px;
+    height: 2.7rem;
+    width: 15.6rem;
+    margin: 0;
+    text-align: center;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: #495E57;
+    font-family: 'Markiz Text';
+}
+
+label {
+    font-family: 'karla Reg';
+}
+
+.nice_button {
+    background-color: #F4CE14;
+    opacity: 50%;
+    font-family: 'karla';
+    font-weight: 700;
+    width: 20rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0px 10px 0px 0px #495E57;
+}
+
+.nice_button:hover {
+    opacity: 100%;
+}
+
+.nice_button:active {
+    transform: translateY(5px);
+    box-shadow: 0px 5px 0px 0px #495E57;
+}
+
+
+.label {
+    min-width: 12rem;
+}
