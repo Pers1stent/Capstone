@@ -1,11 +1,13 @@
 import React from 'react'
+import {useState} from 'react'
 import './components/home.css'
 import logo from './images/Logo.svg';
 import {Link} from 'react-router-dom'
 
 const Navbar = () => {
+  
   return (
-    <div className='header'>
+    <div className={`header`}>
         <Link to='/'><img src={logo} alt="logo" width={237} height={64}/></Link>
         <nav>
             <ul>

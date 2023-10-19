@@ -1,5 +1,7 @@
 import './App.css';
-import Home from './Home';
+import {useState, useReducer} from 'react'
+import Main from './Main';
+import Home from './Home'
 import Navbar from './Navbar'
 import Menu from './Menu'
 import Reservations from './Reservations'
@@ -14,7 +16,8 @@ function App() {
         <Navbar />
           <div className='content'>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path='/' element={<Home/>}/>
+              <Route path="/Main" element={<Main/>}/>
               <Route path="/Menu" element={<Menu />} />
               <Route path='/Reservations' element={< Reservations/>} />
               <Route path='/Login' element ={<Login />}/>

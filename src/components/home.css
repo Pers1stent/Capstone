@@ -23,6 +23,9 @@
     src: url(../fonts/Karla-Bold.ttf);
 }
 
+.burger {
+    max-width: 2rem;
+}
 
 .header {
     display: flex;
@@ -30,6 +33,8 @@
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
 }
+
+
 
 ul {
     margin-top: 1.3rem;
