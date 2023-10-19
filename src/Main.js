@@ -1,13 +1,16 @@
 import React, { useReducer, useEffect, useState } from "react";
 import { Navigate, Route, Routes, useNavigate } from "react-router-dom";
-import Booking from "./Booking";
+import Home from "./Home"
+import Login from "./Login"
+import Reservations from "./Reservations"
 import ConfirmedBooking from "./ConfirmedBooking";
 
 
 const Main = () => {
 
-     const [availableTimes, setAvailableTimes] = useState(["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"])
+    // const [availableTimes, setAvailableTimes] = useState(["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"])
 
+    //Chrome was blocking running the script on the index page so I added it here. "https://chromestatus.com/feature/5629709824032768"
     const seededRandom = function (seed) {
         var m = 2**35 - 31;
         var a = 185852;
@@ -44,15 +47,17 @@ const Main = () => {
     const navigate = useNavigate();
     function submitForm (formData) {
         if (submitAPI(formData)) {
-            navigate("/confirmed")
+            navigate("/confirmedbooking")
         }
     }
 
     return(
-        <main className="main">
+        <main>
             <Routes>
-                <Route path="/booking" element={<Booking availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>} />
-                <Route path="/confirmed" element={<ConfirmedBooking/> } />
+                <Route path="/" element={<Home />} />
+                <Route path="/login" element={<Login/>}/>
+                <Route path="/reservations" element={<Reservations availableTimes={state} dispatch={dispatch} submitForm={submitForm}/>} />
+                <Route path="/confirmedbooking" element={<ConfirmedBooking/> } />
             </Routes>
         </main>
 
